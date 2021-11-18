@@ -1,0 +1,135 @@
+@import './colors';
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: $paleBlue;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+
+.container {
+  max-width: 25em;
+  background-color: $veryPaleBlue;
+  border-radius: 1em;
+  box-shadow: 0px 20px 30px -8px hsl(245, 33%, 84%);
+
+  &__img-hero img{
+    max-width: 25em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+  }
+
+  .order-summary {
+    text-align: center;
+    padding: 2em;
+
+    & h3 {
+      font-size: 2em;
+      font-weight: 900;
+      margin-bottom: 0.5em;
+      color: $darkBlue;
+    }
+
+    & p {
+      font-size: 1em;
+      line-height: 1.5em;
+      color: $grey;
+    }
+  }
+
+  .annual-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 10% 10% 10%;
+
+    &__music {
+      padding: 1em 0 1em 1em;
+    }
+
+    &__all {
+      margin-right: 15%;
+
+      &-name {
+        margin-bottom: 4%;
+        font-weight: 700;
+        font-size: 1em;
+        color: $darkBlue;
+      }
+
+      &-price {
+        margin-bottom: 15%;
+        color: $grey;
+        font-size: 1em;
+      }
+    }
+
+    &__change {
+      margin-right: 2em;
+      margin-bottom: 4%;
+      font-weight: 700;
+      font-size: 0.9em;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .payment {
+    margin: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+    &__btn {
+      font-size: 1em;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 1em;
+      width: 20em;
+      box-shadow: 0px 20px 30px -8px hsl(245, 96%, 79%);
+      background-color: $brightBlue;
+      color: whitesmoke;
+      border: none;
+      border-radius: 1em;
+      transform: 0.3s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    &__cancel {
+      text-decoration: none;
+      color: $grey;
+      font-size: 1em;
+      font-weight: 700;
+
+      &:hover {
+        color: $brightBlue;
+      }
+    }
+  }
+}
+
+.attribution {
+  max-width: 25em;
+  margin: 1em auto;
+  font-size: 0.8em;
+  text-align: center;
+}

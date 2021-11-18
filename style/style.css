@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #e0e8ff;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3em;
+}
+
+.container {
+  max-width: 25em;
+  background-color: #f5f7ff;
+  border-radius: 1em;
+  -webkit-box-shadow: 0px 20px 30px -8px #cbc9e4;
+          box-shadow: 0px 20px 30px -8px #cbc9e4;
+}
+
+.container__img-hero img {
+  max-width: 25em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.container .order-summary {
+  text-align: center;
+  padding: 2em;
+}
+
+.container .order-summary h3 {
+  font-size: 2em;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+  color: #1f2f56;
+}
+
+.container .order-summary p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #4b4b4b;
+}
+
+.container .annual-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5% 10% 10% 10%;
+}
+
+.container .annual-plan__music {
+  padding: 1em 0 1em 1em;
+}
+
+.container .annual-plan__all {
+  margin-right: 15%;
+}
+
+.container .annual-plan__all-name {
+  margin-bottom: 4%;
+  font-weight: 700;
+  font-size: 1em;
+  color: #1f2f56;
+}
+
+.container .annual-plan__all-price {
+  margin-bottom: 15%;
+  color: #4b4b4b;
+  font-size: 1em;
+}
+
+.container .annual-plan__change {
+  margin-right: 2em;
+  margin-bottom: 4%;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.container .annual-plan__change:hover {
+  text-decoration: none;
+}
+
+.container .payment {
+  margin: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .payment__btn {
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1em;
+  width: 20em;
+  -webkit-box-shadow: 0px 20px 30px -8px #9f96fd;
+          box-shadow: 0px 20px 30px -8px #9f96fd;
+  background-color: #3829e0;
+  color: whitesmoke;
+  border: none;
+  border-radius: 1em;
+  -webkit-transform: 0.3s;
+          transform: 0.3s;
+}
+
+.container .payment__btn:hover {
+  opacity: 0.8;
+}
+
+.container .payment__cancel {
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.container .payment__cancel:hover {
+  color: #3829e0;
+}
+
+.attribution {
+  max-width: 25em;
+  margin: 1em auto;
+  font-size: 0.8em;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
